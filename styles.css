@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            /* Basic shadow effect */
+        }
+
+        .days,
+        .btn {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .btn {
+            cursor: pointer;
+            background-color: #4CAF50;
+            /* Green button color */
+            color: white;
+        }
+
+        .result {
+            margin-top: 15px;
+            font-weight: bold;
+            border: gold;
+        }
